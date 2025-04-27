@@ -1,0 +1,20 @@
+# Use an official Python runtime as a parent image
+FROM python:3.9-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the current directory contents into the container at /app
+COPY . /app
+
+# Install any needed packages specified in requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Make port 5001 available to the world outside this container
+EXPOSE 5001
+
+# Define environment variable for the WebAI index path
+ENV WEB_AI_INDEX_PATH="/Users/jordan.hill/Documents/vector_index_20250426_202317"
+
+# Run the python script when the container launches
+CMD ["python", "pdf_processor.py"]

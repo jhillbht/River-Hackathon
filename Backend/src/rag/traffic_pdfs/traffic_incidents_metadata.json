@@ -1,0 +1,1019 @@
+{
+  "dataset_info": {
+    "name": "Austin Traffic Incidents",
+    "source": "https://data.austintexas.gov/resource/dx9v-zd7x.json",
+    "record_count": 50,
+    "generated_at": "2025-04-27T04:43:29.405755",
+    "incident_types": [
+      "COLLISION",
+      "Crash Urgent",
+      "Traffic Hazard",
+      "Crash Service",
+      "COLLISION WITH INJURY",
+      "TRFC HAZD/ DEBRIS",
+      "Stalled Vehicle"
+    ]
+  },
+  "incidents": [
+    {
+      "traffic_report_id": "A50274B028DF2DC7F5A78067724B2B8F7312F9B4_1745727298",
+      "published_date": "2025-04-27 04:14:58+00:00",
+      "issue_reported": "COLLISION",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.528356,
+          30.3008
+        ]
+      },
+      "latitude": "30.3008",
+      "longitude": "-97.528356",
+      "address": "10400-10522 TAYLOR LN",
+      "traffic_report_status": "ACTIVE",
+      "traffic_report_status_date_time": "2025-04-27T04:20:14.000Z",
+      "agency": "TRAVIS COUNTY SHERIF",
+      "incident_age_hours": 0.4753823452777778,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "E5C24FEF2E7AC4EA6E51308C08FBDCF083E70C20_1745726359",
+      "published_date": "2025-04-27 03:59:19+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.729694,
+          30.23443
+        ]
+      },
+      "latitude": "30.23443",
+      "longitude": "-97.729694",
+      "address": "1845 Burton Dr",
+      "traffic_report_status": "ACTIVE",
+      "traffic_report_status_date_time": "2025-04-27T04:00:20.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 0.7362156786111111,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "2BD746386E7303C37C516CE228D22B96E3BAC1F5_1745726114",
+      "published_date": "2025-04-27 03:55:14+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.731784,
+          30.274747
+        ]
+      },
+      "latitude": "30.274747",
+      "longitude": "-97.731784",
+      "address": "E 15th St / N Ih 35 Svrd Sb",
+      "traffic_report_status": "ACTIVE",
+      "traffic_report_status_date_time": "2025-04-27T04:00:20.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 0.8042712341666667,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "2664C206999E7419517EE39E177797576A52201B_1745725882",
+      "published_date": "2025-04-27 03:51:22+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.720491,
+          30.255713
+        ]
+      },
+      "latitude": "30.255713",
+      "longitude": "-97.720491",
+      "address": "2204 E Cesar Chavez St",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T04:40:15.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 0.8687156786111111,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "F7B4FCD1404631AB5502B8A9DDC8081637865056_1745724981",
+      "published_date": "2025-04-27 03:36:21+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.691854,
+          30.378767
+        ]
+      },
+      "latitude": "30.378767",
+      "longitude": "-97.691854",
+      "address": "903 Wagon Trl",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T03:45:14.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 1.118993456388889,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "B338563109F2BF96B41B6F5BB804904277C0DED6_1745724687",
+      "published_date": "2025-04-27 03:31:27+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.650871,
+          30.382124
+        ]
+      },
+      "latitude": "30.382124",
+      "longitude": "-97.650871",
+      "address": "12101 DESSAU RD",
+      "traffic_report_status": "ACTIVE",
+      "traffic_report_status_date_time": "2025-04-27T03:40:13.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 1.2006601230555556,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "90F919999619A047D963085525BDA5642495FBCD_1745724087",
+      "published_date": "2025-04-27 03:21:27+00:00",
+      "issue_reported": "Traffic Hazard",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.733882,
+          30.275406
+        ]
+      },
+      "latitude": "30.275406",
+      "longitude": "-97.733882",
+      "address": "1500 Red River St",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T03:30:15.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 1.3673267897222223,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "16D019226888EB13A33C853802B1AA72DF6C7AC1_1745722858",
+      "published_date": "2025-04-27 03:00:58+00:00",
+      "issue_reported": "Crash Service",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.721034,
+          30.201565
+        ]
+      },
+      "latitude": "30.201565",
+      "longitude": "-97.721034",
+      "address": "6231 E Stassney Ln",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T03:45:14.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 1.708715678611111,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "4969DE54A08304D642C196AC05D389BBBB255571_1745722674",
+      "published_date": "2025-04-27 02:57:54+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.686211,
+          30.353387
+        ]
+      },
+      "latitude": "30.353387",
+      "longitude": "-97.686211",
+      "address": "9125 NORTH PLZ",
+      "traffic_report_status": "ACTIVE",
+      "traffic_report_status_date_time": "2025-04-27T03:00:18.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 1.7598267897222222,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "D077BA37B8C977B50B81AEB238F7AA4D7D5A8646_1745721456",
+      "published_date": "2025-04-27 02:37:36+00:00",
+      "issue_reported": "Traffic Hazard",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.720342,
+          30.21107
+        ]
+      },
+      "latitude": "30.21107",
+      "longitude": "-97.720342",
+      "address": "Comsouth Dr / Trade Center Dr",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T03:20:16.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 2.0981601230555555,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "C718AA30A6FF882B7087CE4F1567E335EA77186E_1745721409",
+      "published_date": "2025-04-27 02:36:49+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.734255,
+          30.214544
+        ]
+      },
+      "latitude": "30.214544",
+      "longitude": "-97.734255",
+      "address": "4501 E Ben White Blvd Svrd Eb",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T03:25:16.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 2.111215678611111,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "3EA77F23BA3301129B3FC06DAF1EE04ECD559293_1745721290",
+      "published_date": "2025-04-27 02:34:50+00:00",
+      "issue_reported": "Crash Service",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.630167,
+          30.176199
+        ]
+      },
+      "latitude": "30.176199",
+      "longitude": "-97.630167",
+      "address": "5405 Silver Fox Dr",
+      "traffic_report_status": "ACTIVE",
+      "traffic_report_status_date_time": "2025-04-27T02:40:13.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 2.1442712341666668,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "6E0312072AD7E48B470123802C90755C690B7644_1745719250",
+      "published_date": "2025-04-27 02:00:50+00:00",
+      "issue_reported": "Traffic Hazard",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.739335,
+          30.267068
+        ]
+      },
+      "latitude": "30.267068",
+      "longitude": "-97.739335",
+      "address": "E 6th St / Trinity St",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T02:40:13.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 2.710937900833333,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "FE5FE4AF3281EC07715498F052A7350C26C151C0_1745718980",
+      "published_date": "2025-04-27 01:56:20+00:00",
+      "issue_reported": "Traffic Hazard",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.793861,
+          30.447787
+        ]
+      },
+      "latitude": "30.447787",
+      "longitude": "-97.793861",
+      "address": "9700-10026 Anderson Mill Rd",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T02:55:12.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 2.785937900833333,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "39588FFE5F5B48E4A673AB2B19F166F480CC7EC8_1745718569",
+      "published_date": "2025-04-27 01:49:29+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.700269,
+          30.27687
+        ]
+      },
+      "latitude": "30.27687",
+      "longitude": "-97.700269",
+      "address": "3300-3327 E 12th St",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T02:55:12.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 2.9001045674999997,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "F594216AB73D45120DC603E926DA86C1AE918428_1745718398",
+      "published_date": "2025-04-27 01:46:38+00:00",
+      "issue_reported": "COLLISION WITH INJURY",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.576153,
+          30.416973
+        ]
+      },
+      "latitude": "30.416973",
+      "longitude": "-97.576153",
+      "address": "3722-3731 E Pecan St",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T04:25:13.000Z",
+      "agency": "TRAVIS COUNTY SHERIF",
+      "incident_age_hours": 2.9476045675,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "6F34A3E0E1AF181E8A78E70C146682B7EAD12846_1745717539",
+      "published_date": "2025-04-27 01:32:19+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.790354,
+          30.261672
+        ]
+      },
+      "latitude": "30.261672",
+      "longitude": "-97.790354",
+      "address": "1300-1417 S Mopac Expy Svrd Nb",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T02:45:15.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 3.186215678611111,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "E5CB99E93E3A3839E702691C45D6CC28FFCABF9E_1745717471",
+      "published_date": "2025-04-27 01:31:11+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.716117,
+          30.390366
+        ]
+      },
+      "latitude": "30.390366",
+      "longitude": "-97.716117",
+      "address": "2400-2408 W Braker Ln",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T01:55:12.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 3.2051045675,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "9521E2BCC9C0DE945CCF68B52345097002B66BA5_1745714719",
+      "published_date": "2025-04-27 00:45:19+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.715476,
+          30.328828
+        ]
+      },
+      "latitude": "30.328828",
+      "longitude": "-97.715476",
+      "address": "116-212 W Highland Mall Blvd",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T02:40:13.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 3.9695490119444443,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "619683DB9EF9D4649743EE1DEDDB3923D6E5F704_1745713959",
+      "published_date": "2025-04-27 00:32:39+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.776789,
+          30.214787
+        ]
+      },
+      "latitude": "30.214787",
+      "longitude": "-97.776789",
+      "address": "Heartwood Dr / S 1st St",
+      "traffic_report_status": "ACTIVE",
+      "traffic_report_status_date_time": "2025-04-27T00:35:12.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 4.180660123055556,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "1F84839EE29222E0274CCB8451BF08D29CA7BE7E_1745713566",
+      "published_date": "2025-04-27 00:26:06+00:00",
+      "issue_reported": "COLLISION WITH INJURY",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.667668,
+          30.456594
+        ]
+      },
+      "latitude": "30.456594",
+      "longitude": "-97.667668",
+      "address": "15900 N IH 35 SVRD SB",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T01:20:17.000Z",
+      "agency": "TRAVIS COUNTY SHERIF",
+      "incident_age_hours": 4.289826789722222,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "A2F3223B9316B2DEB98D412205119ECC7CFF4E54_1745712573",
+      "published_date": "2025-04-27 00:09:33+00:00",
+      "issue_reported": "Traffic Hazard",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.729078,
+          30.278511
+        ]
+      },
+      "latitude": "30.278511",
+      "longitude": "-97.729078",
+      "address": "E Martin Luther King Jr Blvd / N Ih 35 Svrd Nb",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T00:25:12.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 4.565660123055556,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "D4E1ACA5DD0E4965A2A66E1256E5B25A346A759B_1745712544",
+      "published_date": "2025-04-27 00:09:04+00:00",
+      "issue_reported": "Crash Service",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.777543,
+          30.268903
+        ]
+      },
+      "latitude": "30.268903",
+      "longitude": "-97.777543",
+      "address": "Rollingwood Dr / S Mopac Expy Svrd Sb",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T00:35:12.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 4.573715678611111,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "74B10C057DED94DC2C9821F38A1096FBC9B3C2F9_1745711944",
+      "published_date": "2025-04-26 23:59:04+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.711652,
+          30.378871
+        ]
+      },
+      "latitude": "30.378871",
+      "longitude": "-97.711652",
+      "address": "1822 Rutland Dr",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T00:55:12.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 4.740382345277778,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "E6602176F26DD0C5FB721FDED265EC8570F686E7_1745711555",
+      "published_date": "2025-04-26 23:52:35+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.808078,
+          30.254395
+        ]
+      },
+      "latitude": "30.254395",
+      "longitude": "-97.808078",
+      "address": "2901 S Capital Of Texas Hwy Nb",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T00:45:15.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 4.848437900833334,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "0D467C11C1F788A43266782AAC388B66B0F22551_1745711463",
+      "published_date": "2025-04-26 23:51:03+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.73348,
+          30.396211
+        ]
+      },
+      "latitude": "30.396211",
+      "longitude": "-97.73348",
+      "address": "3808 W Braker Ln",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T00:45:15.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 4.873993456388889,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "6A62415B43A0268F38F117F076DCE135705D7895_1745710339",
+      "published_date": "2025-04-26 23:32:19+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.765909,
+          30.47864
+        ]
+      },
+      "latitude": "30.47864",
+      "longitude": "-97.765909",
+      "address": "9221-9227 W Parmer Ln",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T00:00:22.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 5.186215678611111,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "2A94B50A655CE6B38F78CA33A4B95E39F0521B89_1745710279",
+      "published_date": "2025-04-26 23:31:19+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.779843,
+          30.245352
+        ]
+      },
+      "latitude": "30.245352",
+      "longitude": "-97.779843",
+      "address": "S Lamar Blvd / Dickson Dr",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T00:35:12.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 5.202882345277778,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "7C7B84EEAEC18233E982D101637AB2A4033C6FB0_1745709478",
+      "published_date": "2025-04-26 23:17:58+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.760225,
+          30.273894
+        ]
+      },
+      "latitude": "30.273894",
+      "longitude": "-97.760225",
+      "address": "1317 W 6th St",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T01:10:15.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 5.425382345277778,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "78AE9F6E6A12A1AF3C5A87F0F649F73AA2B4C7BE_1745709206",
+      "published_date": "2025-04-26 23:13:26+00:00",
+      "issue_reported": "Traffic Hazard",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.737528,
+          30.313437
+        ]
+      },
+      "latitude": "30.313437",
+      "longitude": "-97.737528",
+      "address": "W 45th St / N Lamar Blvd",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T23:30:15.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 5.500937900833334,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "4B7AF5BD2D1026517F203F379E660FE2337A3E33_1745709040",
+      "published_date": "2025-04-26 23:10:40+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.794068,
+          30.220758
+        ]
+      },
+      "latitude": "30.220758",
+      "longitude": "-97.794068",
+      "address": "Menchaca Rd / Jones Rd",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T23:55:15.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 5.547049011944445,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "1F1086DFBC090121A93929DF16653B5C0E5909D1_1745708081",
+      "published_date": "2025-04-26 22:54:41+00:00",
+      "issue_reported": "TRFC HAZD/ DEBRIS",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.810285,
+          30.282787
+        ]
+      },
+      "latitude": "30.282787",
+      "longitude": "-97.810285",
+      "address": "BEE CAVE RD / CAMP CRAFT RD",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T23:05:24.000Z",
+      "agency": "TRAVIS COUNTY SHERIF",
+      "incident_age_hours": 5.813437900833334,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "D2B77EBA190F0947FEC6F4EA390E31488AE19D61_1745707399",
+      "published_date": "2025-04-26 22:43:19+00:00",
+      "issue_reported": "TRFC HAZD/ DEBRIS",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.781706,
+          30.312568
+        ]
+      },
+      "latitude": "30.312568",
+      "longitude": "-97.781706",
+      "address": "2950-2979 Westlake Dr",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T23:25:15.000Z",
+      "agency": "TRAVIS COUNTY SHERIF",
+      "incident_age_hours": 6.002882345277778,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "3C457CE18C2E37A4437E0201076AD638367EF0EA_1745707030",
+      "published_date": "2025-04-26 22:37:10+00:00",
+      "issue_reported": "Traffic Hazard",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.719514,
+          30.234847
+        ]
+      },
+      "latitude": "30.234847",
+      "longitude": "-97.719514",
+      "address": "1400-1917 Wickersham Ln",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-27T00:10:14.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 6.1053823452777785,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "619B7F2C7440776E5362A04735DE28763FF332D8_1745706760",
+      "published_date": "2025-04-26 22:32:40+00:00",
+      "issue_reported": "Traffic Hazard",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.703945,
+          30.282572
+        ]
+      },
+      "latitude": "30.282572",
+      "longitude": "-97.703945",
+      "address": "E Martin Luther King Jr Blvd / Airport Blvd",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T23:10:24.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 6.180382345277778,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "E102F58E52490B7362DDC18B36BE9A77AAE19F31_1745706720",
+      "published_date": "2025-04-26 22:32:00+00:00",
+      "issue_reported": "COLLISION",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -98.024999,
+          30.331896
+        ]
+      },
+      "latitude": "30.331896",
+      "longitude": "-98.024999",
+      "address": "18200-19099 W Sh 71",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T22:55:23.000Z",
+      "agency": "TRAVIS COUNTY SHERIF",
+      "incident_age_hours": 6.191493456388889,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "715E82FA3B623C04F4EB343985DBBE7555A0BE99_1745706581",
+      "published_date": "2025-04-26 22:29:41+00:00",
+      "issue_reported": "Traffic Hazard",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.749525,
+          30.417718
+        ]
+      },
+      "latitude": "30.417718",
+      "longitude": "-97.749525",
+      "address": "5700-5739 Duval Rd",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T22:55:23.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 6.230104567500001,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "5BBD5046C9B461CA6F1549F3F39C240A9C5702F9_1745705704",
+      "published_date": "2025-04-26 22:15:04+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.733292,
+          30.27056
+        ]
+      },
+      "latitude": "30.27056",
+      "longitude": "-97.733292",
+      "address": "E 11th St / N Ih 35 Svrd Sb",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T22:45:20.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 6.473715678611112,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "04B69E5006D308A60F286C6D87138324D3C745C6_1745705529",
+      "published_date": "2025-04-26 22:12:09+00:00",
+      "issue_reported": "Traffic Hazard",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.80147,
+          30.368822
+        ]
+      },
+      "latitude": "30.368822",
+      "longitude": "-97.80147",
+      "address": "7004-7115 Fm 2222 Rd",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T22:25:15.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 6.522326789722222,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "D153F27E3301C925898E63BFBF9AC067701D5FE0_1745705371",
+      "published_date": "2025-04-26 22:09:31+00:00",
+      "issue_reported": "TRFC HAZD/ DEBRIS",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -98.03776,
+          30.339854
+        ]
+      },
+      "latitude": "30.339854",
+      "longitude": "-98.03776",
+      "address": "PEDERNALES SUMMIT PKWY / W SH 71",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T22:25:15.000Z",
+      "agency": "TRAVIS COUNTY SHERIF",
+      "incident_age_hours": 6.566215678611111,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "97E3D7DDE9CFE479809108E9E82145A7912A08A2_1745704329",
+      "published_date": "2025-04-26 21:52:09+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.731462,
+          30.317787
+        ]
+      },
+      "latitude": "30.317787",
+      "longitude": "-97.731462",
+      "address": "4900 N Lamar Blvd",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T22:00:22.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 6.855660123055556,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "A874F83E95A94266C7D2856A7CBB42EE5AF2E01A_1745704263",
+      "published_date": "2025-04-26 21:51:03+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.730821,
+          30.31877
+        ]
+      },
+      "latitude": "30.31877",
+      "longitude": "-97.730821",
+      "address": "N Lamar Blvd / W 51st St",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T23:15:20.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 6.873993456388889,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "6B4142E2E97B851A319B0FCAB23709B40E3FC19F_1745703831",
+      "published_date": "2025-04-26 21:43:51+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.749327,
+          30.28831
+        ]
+      },
+      "latitude": "30.28831",
+      "longitude": "-97.749327",
+      "address": "W 24th St / Leon St",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T22:25:15.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 6.993993456388889,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "2B9A620B52D24FBDC2B34FB350A34367AF53F3C8_1745703706",
+      "published_date": "2025-04-26 21:41:46+00:00",
+      "issue_reported": "Traffic Hazard",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.6913,
+          30.218804
+        ]
+      },
+      "latitude": "30.218804",
+      "longitude": "-97.6913",
+      "address": "E Ben White Blvd Svrd Wb / E Riverside Dr",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T22:05:19.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 7.028715678611111,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "C03683BF915B1D9B9B2949494BFDA59AC1C5F7A2_1745703534",
+      "published_date": "2025-04-26 21:38:54+00:00",
+      "issue_reported": "COLLISION",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.535556,
+          30.349212
+        ]
+      },
+      "latitude": "30.349212",
+      "longitude": "-97.535556",
+      "address": "12200-BLK E US 290 HWY EB",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T22:05:19.000Z",
+      "agency": "TRAVIS COUNTY SHERIF",
+      "incident_age_hours": 7.0764934563888895,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "D8F3CCD7B68FAD2CABB3DAD4B26EC24583BDDF8F_1745703313",
+      "published_date": "2025-04-26 21:35:13+00:00",
+      "issue_reported": "COLLISION",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.571921,
+          30.483213
+        ]
+      },
+      "latitude": "30.483213",
+      "longitude": "-97.571921",
+      "address": "20500-20536 COMMONS PKWY",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T22:15:18.000Z",
+      "agency": "TRAVIS COUNTY SHERIF",
+      "incident_age_hours": 7.137882345277778,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "F69E508A40C73A21D4D2B63AAA03339FE7DBD165_1745703097",
+      "published_date": "2025-04-26 21:31:37+00:00",
+      "issue_reported": "Stalled Vehicle",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.674339,
+          30.299023
+        ]
+      },
+      "latitude": "30.299023",
+      "longitude": "-97.674339",
+      "address": "5600-blk SPRINGDALE RD",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T21:40:14.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 7.197882345277778,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "6C8E459F96D9CF05E1FAC5432DF1066B42609E52_1745702644",
+      "published_date": "2025-04-26 21:24:04+00:00",
+      "issue_reported": "Crash Urgent",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.794561,
+          30.461074
+        ]
+      },
+      "latitude": "30.461074",
+      "longitude": "-97.794561",
+      "address": "N Us 183 Hwy Svrd Sb / Lake Creek Pkwy",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T22:15:18.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 7.323715678611111,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "6896DDC64EF4051E872B1E3B3B37D25E74F3C335_1745702599",
+      "published_date": "2025-04-26 21:23:19+00:00",
+      "issue_reported": "Crash Service",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.659429,
+          30.302565
+        ]
+      },
+      "latitude": "30.302565",
+      "longitude": "-97.659429",
+      "address": "5537 Loyola Ln",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T22:30:17.000Z",
+      "agency": "AUSTIN PD           ",
+      "incident_age_hours": 7.3362156786111115,
+      "status": "N/A"
+    },
+    {
+      "traffic_report_id": "026163C85E903E67F039F05E9A80218311817CF1_1745702505",
+      "published_date": "2025-04-26 21:21:45+00:00",
+      "issue_reported": "COLLISION",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -97.779708,
+          30.422789
+        ]
+      },
+      "latitude": "30.422789",
+      "longitude": "-97.779708",
+      "address": "7930-7950 TEXAS PLUME RD",
+      "traffic_report_status": "ARCHIVED",
+      "traffic_report_status_date_time": "2025-04-26T22:10:17.000Z",
+      "agency": "TRAVIS COUNTY SHERIF",
+      "incident_age_hours": 7.362326789722222,
+      "status": "N/A"
+    }
+  ]
+}

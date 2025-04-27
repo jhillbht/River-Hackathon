@@ -1,0 +1,16 @@
+FROM python:3.9-slim
+
+WORKDIR /app
+
+COPY . /app
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Create directory for the vector index
+RUN mkdir -p /app/vector_index
+
+# Set environment variable for the index path
+ENV WEB_AI_INDEX_PATH="/app/vector_index"
+
+# First run ingestion, then run inference
+CMD ["sh", "-c", "python ingest_pdfs.py && python rag_inference.py"] 
