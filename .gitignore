@@ -91,3 +91,17 @@ iOSInjectionProject/
 
 # macOS
 .DS_Store
+
+# Environment and API keys
+.env
+*.env
+.env.*
+.roo/mcp.json
+**/mcp.json
+**/api_keys.json
+**/secrets.json
+**/credentials.json
+**/config.json
+**/config.local.json
+**/settings.json
+**/settings.local.json
