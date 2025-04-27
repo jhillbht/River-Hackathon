@@ -13,7 +13,7 @@ import requests
 import json
 import os
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, timezone
 from fpdf import FPDF
 import logging
 
@@ -76,10 +76,19 @@ def preprocess_traffic_data(data):
     for col in date_columns:
         if col in df.columns:
             df[col] = pd.to_datetime(df[col])
-            
-    # Add derived fields
+    
+    # Add derived fields - using timezone-aware datetime to avoid timezone errors
     if 'published_date' in df.columns:
-        df['incident_age_hours'] = (datetime.now() - df['published_date']).dt.total_seconds() / 3600
+        # Use a tz-aware datetime now to match the timezone from the API
+        now = datetime.now(timezone.utc)
+        try:
+            # Calculate age in hours, handling timezone differences
+            time_diff = now - df['published_date']
+            df['incident_age_hours'] = time_diff.dt.total_seconds() / 3600
+        except TypeError as e:
+            # If timezone error occurs, skip the calculation
+            logger.warning(f"Skipping incident age calculation due to: {e}")
+            df['incident_age_hours'] = 'N/A'
     
     # Ensure critical fields exist
     essential_cols = ['traffic_report_id', 'issue_reported', 'address', 'status']
@@ -143,7 +152,12 @@ def create_incident_pdfs(df, output_dir=PDF_OUTPUT_DIR):
         # Add all available incident data
         for key, value in incident.items():
             if key not in ['shape', 'location']:  # Skip geometry fields
-                incident_pdf.cell(200, 10, txt=f"{key.replace('_', ' ').title()}: {value}", ln=True)
+                # Convert value to string to avoid FPDF errors with non-string types
+                value_str = str(value)
+                # Truncate long values to avoid PDF errors
+                if len(value_str) > 200:
+                    value_str = value_str[:197] + "..."
+                incident_pdf.cell(200, 10, txt=f"{key.replace('_', ' ').title()}: {value_str}", ln=True)
         
         # Add coordinates if available
         if 'latitude' in incident and 'longitude' in incident:
